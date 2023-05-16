@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: auto;
+    background-color: #283149;
+    display: block;
+}
+#title{
+    text-align: center;
+    color: #DBEDF3;
+    text-shadow:  3px 4px #ce0c63;
+    margin: 10% auto;
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+    padding: auto;
+    
+   
+}
+.set{
+    display: block;
+    margin: 10% auto;
+    width: auto;
+    text-align: center;
+}
+.w {
+    background-image: url(./image/tom1.png);
+    height: 150px;
+    width: 150px;
+    color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+ audio{
+
+    display: none;
+}
+.a{
+    background-image: url(./image/tom2.png);
+    height: 150px;
+    width: 150px;color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+.s{
+    background-image: url(./image/tom3.png);
+    height: 150px;
+    width: 150px;
+    color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+.d {
+    background-image: url(./image/tom4.png);
+    height: 150px;
+    width: 150px;
+    color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+.j {
+    background-image: url(./image/crash.png);
+    height: 150px;
+    width: 150px;
+    color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+.k{
+    background-image: url(./image/kick.png);
+    height: 150px;
+    width: 150px;
+    color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+.l {
+    background-image: url(./image/tom1.png);
+    height: 150px;
+    width: 150px;
+    color: #DA0463;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #bbdde9;
+    border: 10px solid #4c5877;
+    border-radius: 10px;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    color: #DBEDF3;
+    font-size: 1em;
+}
