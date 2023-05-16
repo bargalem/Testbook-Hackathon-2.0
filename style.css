@@ -1,0 +1,187 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: serif;
+        font-size: 15px;
+    }
+
+    #wrap {
+        height: fit-content;
+        width: 80vw;
+        background-color: rgb(231, 229, 229);
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 2px grey;
+
+
+    }
+
+    #topdiv {
+        padding: 10px;
+        background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+
+    }
+
+    #bottomdiv {
+        padding: 10px;
+        background-color: white;
+
+    }
+
+    #topdiv h1 {
+        color: white;
+    }
+
+
+
+    #type-list {
+        outline: none;
+        width: 70%;
+        height: 30px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: none;
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+
+    #type-list:hover {
+        background-color: whitesmoke;
+        border: 2px solid black;
+        outline: 2px solid white;
+
+    }
+
+    #sub-btn {
+
+        padding: 10px;
+        border: none;
+        width: 20%;
+        border-radius: 5px;
+        height: max-content;
+        outline: none;
+        cursor: pointer;
+
+    }
+
+    #sub-btn:hover {
+        background-color: rgb(107, 105, 105);
+        transition: all 300ms ease-in;
+        color: white;
+
+
+    }
+
+    #error {
+
+        color: white;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 25px;
+        padding-left: 15px;
+        margin-top: 5px;
+
+    }
+
+    #show-list li {
+
+        list-style: none;
+        margin: 10px;
+        padding-left: 10px;
+        height: auto;
+        background-color: rgb(231, 229, 229);
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+
+    #show-list li div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .close,
+    .edit,
+    .CHECK {
+
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .close:hover {
+        background-color: rgb(196, 195, 195);
+    }
+
+    .edit:hover {
+        background-color: rgb(196, 195, 195);
+    }
+
+    .CHECK:hover {
+        background-color: rgb(196, 195, 195);
+    }
+
+    .edit {
+        color: green;
+    }
+
+    .close {
+        color: red;
+    }
+
+    .inpt {
+        border: none;
+        font-size: 15px;
+    }
+
+    .CHECK {
+        color: blue;
+
+
+
+    }
+
+    @media screen and (max-width:500px) {
+        #topdiv h1 {
+            font-size: auto;
+        }
+
+        #show-list li div {
+            gap: 5px;
+            flex-direction: column;
+            margin: 5px;
+        }
+
+        #show-list li {
+
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .inpt {
+            text-align: center;
+        }
+
+        #sub-btn {
+            width: auto;
+
+        }
+
+    }
+
+
+
